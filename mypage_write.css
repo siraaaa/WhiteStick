@@ -1,0 +1,43 @@
+.climbinglog li{
+  list-style: none;
+  margin: 5px;
+}
+.climbinglog ul{
+
+    border: 10px double #bed2d2;
+    border-radius: 4px;
+    min-width: 450px;
+    background: #3c3131;
+    color: #d8dfdf;
+    font-size: 15px;
+    margin: 15px;
+    padding: 30px;
+  }
+.climbinglog label{
+  width: 100%;
+  float: left;
+  margin: 9px;
+  font-weight: bolder;
+  font-size: 20px
+}
+.climbinglog li{
+  padding-top: 3px;
+  padding-bottom: 17px;
+  border-bottom: 0.5px dashed #bed2d2;
+}
+#form1 img{
+  border: 5px solid #afada7;
+  border-radius: 3px;
+  display: inline-block;
+  margin:10px;
+  width:250px;
+  height:250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+textarea{
+  width:300px;
+  overflow:visible;
+}
+textarea.autosize { min-height: 50px; }

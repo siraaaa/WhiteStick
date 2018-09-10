@@ -1,0 +1,44 @@
+
+.plus {
+  float: right;
+ text-align: center;
+  display: block;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  border: 3px #6b5b4e solid;
+  border-radius: 100%;
+}
+.columns{
+  column-gap: 15px;
+}
+.columns figure{
+  color: white;
+  background: rgb(60, 49, 49);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.columns figure img{
+  border: 5px solid  #e7d0c3;
+  display: inline-block;
+  margin:10px;
+  width:250px;
+  height:250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.columns figure figcaption{
+  line-height: 25px;
+  float: right;
+  margin-top: 15px;
+  padding: 10px;
+  width: 250px;
+  display: inline-block;
+  white-space: normal;
+}

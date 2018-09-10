@@ -1,0 +1,40 @@
+
+.icon{
+  column-gap: 15px;
+}
+.icon figure{
+  border: 4px solid rgb(60, 49, 49);
+  border-radius: 13px;
+  width: 280px;
+  height: 464.167px;
+  color: white;
+  background: rgb(60, 49, 49);
+  box-shadow: 7px 7px 16px #454040;
+  padding: 10px;
+  margin: 7.45px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.icon figure img{
+  border: 5px solid  #e7d0c3;
+  border-radius: 15px;
+  background-color: #e7d0c3;
+  display: inline-block;
+  margin:10px;
+  width:250px;
+  height:250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.icon figure figcaption{
+  text-align: center;
+  line-height: 25px;
+  float: right;
+  margin-top: 15px;
+  padding: 10px;
+  width: 250px;
+  display: inline-block;
+  white-space: normal;
+}
